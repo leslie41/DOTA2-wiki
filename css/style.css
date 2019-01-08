@@ -1,0 +1,174 @@
+body{
+	color: #337ab7;
+}
+
+h1{
+	border-bottom: 2px solid #337ab7;
+
+}
+
+a{
+	text-decoration: none
+}
+
+.h1Heading{	
+    margin-bottom: 0.1em;
+    line-height: 1.2em;
+    padding-bottom: 0;
+}
+
+.line0{
+    height: 35px;
+    background-color: #3366CC;
+}
+
+.line0 > p{
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.line1{
+    height: 30px;
+}
+
+.line1 > p{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.line2{
+    height: 30px;
+    background-color: #eee;
+}
+
+.line2 > p{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.line1 > div.left > p{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.line1 > div.left{
+    height: 30px;
+    float: left;
+    width: 50%;
+}
+
+.line1 > div.right{
+    height: 30px;
+    float: left;
+    width: 50%;
+}
+
+.line1 > div.right > p{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    text-align: left;
+    width: 50%;
+}
+
+.pic{
+
+}
+
+.bracket-game{
+    position: relative;
+}
+
+.bracket-cell-r1{
+    height: 36px;
+    position: relative;
+}
+
+.bracket-cell-r2{
+    height: 72px;
+    position: relative;
+}
+
+.bracket-cell-r3{
+    height: 144px;
+    position: relative;
+}
+
+.bracket-team-top{
+    border: solid #aaa 1px;
+    border-radius: 2px 2px 0 0;
+    bottom: 0;
+    position: absolute;
+    padding: 1px;
+    min-height: 20px;
+    line-height: 18px;
+    background: #f2f2f2;
+    left: 0;
+    right: 0;
+}
+
+.bracket-team-bottom{
+    border: solid #aaa 1px;
+    border-radius: 0 0 2px 2px;
+    position: absolute;
+    padding: 1px;
+    min-height: 20px;
+    line-height: 18px;
+    background: #f2f2f2;
+    left: 0;
+    right: 0;
+}
+
+.bracket-header{
+    border-radius: 2px;
+    border: 1px solid #aaa;
+    padding: 2px 0 2px 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    line-height: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: #ebebeb;
+}
+
+.bracket-score{
+    text-align: center;
+    background: #ebebeb;
+    border-left: 1px solid #aaa;
+    position: absolute;
+    line-height: 22px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.bracket-matches{
+    float: left
+}
+
+.bracket-column{
+    float: left;
+    position: relative;
+}
+
+.icon{
+    position: absolute;
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+}
+
+
